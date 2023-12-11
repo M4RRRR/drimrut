@@ -1,0 +1,86 @@
+/* Reset styling */
+body, h1, h2, p, img {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('backround.jpg'); /* Ganti 'background.jpg' dengan nama file gambar yang sesuai */
+  background-size: cover;
+  color: #fff; /* Warna teks */
+}
+
+/* Header styling */
+header {
+  background-color: #333; /* Warna latar header */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 a {
+  color: #fff; /* Warna teks header */
+  text-decoration: none;
+}
+
+/* Section styling */
+section {
+  display: flex; /* Menggunakan flexbox untuk membuat gambar berbaris */
+  justify-content: space-around; /* Mengatur ruang antara gambar */
+  align-items: center; /* Mengatur gambar ke tengah vertikal */
+  padding: 20px;
+}
+
+/* Informasi Anggota Tim styling */
+.person-info {
+  text-align: center; /* Posisi teks ke tengah */
+  margin: 15px; /* Jarak antara blok informasi anggota tim */
+  background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih semi-transparan */
+  padding: 15px; /* Ruang di dalam blok informasi */
+  border-radius: 10px; /* Sudut melengkung */
+}
+
+img {
+  width: 150px; /* Lebar gambar anggota tim */
+  height: 150px; /* Tinggi gambar anggota tim */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333; /* Warna judul anggota tim */
+  margin-bottom: 5px; /* Jarak antara judul dan informasi lainnya */
+}
+
+p {
+  color: #555; /* Warna teks informasi anggota tim */
+  margin-bottom: 3px; /* Jarak antara informasi */
+}
+
+img {
+  width: 150px; /* Lebar gambar anggota tim */
+  height: 150px; /* Tinggi gambar anggota tim */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #333; /* Warna judul anggota tim */
+  margin-bottom: 5px; /* Jarak antara judul dan informasi lainnya */
+}
+
+p {
+  color: #555; /* Warna teks informasi anggota tim */
+  margin-bottom: 3px; /* Jarak antara informasi */
+}
+
+/* Kalimat Tambahan styling */
+.additional-info {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan */
+  margin: 20px;
+  border-radius: 10px;
+  color: #333; /* Warna teks kalimat tambahan */
+}
